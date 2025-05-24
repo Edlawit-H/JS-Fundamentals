@@ -1,7 +1,7 @@
 let arg=process.argv[2];
 let newarg=parseInt(arg);
 if (isNaN(newarg)){
-    console.log("Not anumber");
+    console.log("Not a number");
 }else {
-    console.log(newarg);
+    console.log("My number: " + newarg);
 }
